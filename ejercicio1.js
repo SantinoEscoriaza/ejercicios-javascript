@@ -4,7 +4,6 @@
 console.log(`EJERCICIO 1`)
 // Variables declaradas
 let numeros = [1,2,3,4,5,6,7,8,9,10]
-let potencia = 2
 let cuadrados = []
 
 // Referencia
@@ -12,7 +11,7 @@ console.log(`Para el conjunto de numeros ${numeros}`)
 
 // Funcion for...of elevar al cuadrado
 for(let numero of numeros){
-    let cuadrado = Math.pow(numero,potencia)
+    let cuadrado = Math.pow(numero,2)
     cuadrados.push(cuadrado)
 }
 
